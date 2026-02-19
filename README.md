@@ -6,6 +6,10 @@ This project implements a **Phase-2 heuristic search agent** for the ShoverWorld
 
 The agent solves grid-based box-removal maps by selecting a box and applying a push direction, while managing limited stamina and exploiting special mechanics such as **Hellify** and **Barrier Maker**.
 
+<p align="center">
+  <img src="demo.gif" alt="Application Demo" width="800">
+</p>
+
 The implementation supports:
 
 * ⭐ A* Search (primary solver)
@@ -49,6 +53,7 @@ maps/
     map3.txt
     map4.txt
 report.pdf            # Full technical report
+demo.gif
 ```
 
 Maps `map3` and `map4` are located inside the `maps/` folder.
